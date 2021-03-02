@@ -2495,7 +2495,7 @@
   <terrain>
     <profile in="0" y0="-50" rs="0" fd="900" sc="0" sm="0"/>
     <trees seed="12345" count="5000" minheight="17" maxheight="38" fractalthreshold="0.8" normalaltitude="1000" maxaltitude="1600"/>
-    <audience seed="1234" count="3000" x0="23" d="1"/>
+    <audience seed="1234" count="3000" x0="30" d="8"/>
   </terrain>
 
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->

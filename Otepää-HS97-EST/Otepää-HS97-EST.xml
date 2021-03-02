@@ -21,7 +21,7 @@
     <plastic c="0x467b43"/>
     <lines summer-min="60" summer-max="105" winter-min="60" winter-max="105"/>
     <numbers min="45" max="105" h1="0" h2="0"/>
-    <lights x0="-37" step="42" size="1.2" d="8" h="25" r="0.2" g="0.18" b="0.16" attn="0.00005" range="270" side="right" m="Materials\material1.xml" t="Textures\metal.png" c="0xbbbbbb"/>
+    <lights x0="-37" step="42" size="1.2" d="12" h="20" r="0.2" g="0.18" b="0.16" attn="0.00005" range="270" side="right" m="Materials\material1.xml" t="Textures\metal.png" c="0xbbbbbb"/>
   </dhill>
 
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -2494,8 +2494,8 @@
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <terrain>
     <profile in="0" y0="-50" rs="0" fd="900" sc="0" sm="0"/>
-    <trees seed="12345" count="5000" minheight="20" maxheight="45" fractalthreshold="0.8" normalaltitude="1000" maxaltitude="1600"/>
-    <audience seed="1234" count="3000" x0="-0.2" d="1"/>
+    <trees seed="12345" count="5000" minheight="17" maxheight="38" fractalthreshold="0.8" normalaltitude="1000" maxaltitude="1600"/>
+    <audience seed="1234" count="3000" x0="23" d="1"/>
   </terrain>
 
   <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -6207,12 +6207,12 @@
   <!-- l -->
   <beamgroup refx1="dhill-fence-beams-lx1" x1="0" refx2="dhill-fence-beams-lx2" x2="0" refy1="dhill-fence-beams-yb" dy1="0" refy2="dhill-fence-beams-yt" dy2="0" refz="dhill-base-lz" dz="0.05" r="0.05" step="1.6" fitstep="true" stepper="2" rect="true" edges="4" end1="true" end2="true" m="Materials\material1.xml" t="Textures\metal.png" c="0xd42235"/>
   <beamgroup refx1="dhill" x1="0.05" refx2="dhill-fence-beams-lx2" x2="0" refy1="dhill-base-yt" ny1="0" refy2="dhill-base-yt" ny2="0.85" refz="dhill-left" dz="0.13" r="0.03" step="1.6" fitstep="true" stepper="2" rect="true" edges="4" m="Materials\material1.xml" t="Textures\metal.png" c="0xd42235"/>
-  <pillar refx1="dhill" x1="0" refx2="dhill-base-x2" x2="0" brefy="dhill-base-yt" nbottom="0.85" trefy="dhill-base-yt" ntop="0.95" reflz="dhill-left" lz="0.2" refrz="dhill-left" rz="0.1" right="false" bottom="false" m="Materials\material1.xml" t="Textures\metal.png" c="0xeeeeee"/>
+  <pillar refx1="dhill" x1="0" refx2="dhill-base-x2" x2="0" brefy="dhill-base-yt" nbottom="0.85" trefy="dhill-base-yt" ntop="0.95" reflz="dhill-left" lz="0.2" refrz="dhill-left" rz="0.1" right="false" m="Materials\material1.xml" t="Textures\metal.png" c="0xeeeeee"/>
 
   <!-- r -->
   <beamgroup refx1="dhill-fence-beams-rx1" x1="0" refx2="dhill-fence-beams-rx2" x2="0" refy1="dhill-fence-beams-yb" dy1="0" refy2="dhill-fence-beams-yt" dy2="0" refz="dhill-base-rz" dz="-0.05" r="0.05" step="1.6" fitstep="true" stepper="2" rect="true" edges="4" end1="true" end2="true" m="Materials\material1.xml" t="Textures\metal.png" c="0xd42235"/>
   <beamgroup refx1="dhill" x1="0.05" refx2="dhill-fence-beams-rx2" x2="0" refy1="dhill-base-yt" ny1="0" refy2="dhill-base-yt" ny2="0.85" refz="dhill-right" dz="-0.13" r="0.03" step="1.6" fitstep="true" stepper="2" rect="true" edges="4" m="Materials\material1.xml" t="Textures\metal.png" c="0xd42235"/>
-  <pillar refx1="dhill" x1="0" refx2="dhill-base-x2" x2="0" brefy="dhill-base-yt" nbottom="0.85" trefy="dhill-base-yt" ntop="0.95" reflz="dhill-right" lz="-0.1" refrz="dhill-right" rz="-0.2" left="false" bottom="false" m="Materials\material1.xml" t="Textures\metal.png" c="0xeeeeee"/>
+  <pillar refx1="dhill" x1="0" refx2="dhill-base-x2" x2="0" brefy="dhill-base-yt" nbottom="0.85" trefy="dhill-base-yt" ntop="0.95" reflz="dhill-right" lz="-0.1" refrz="dhill-right" rz="-0.2" left="false" m="Materials\material1.xml" t="Textures\metal.png" c="0xeeeeee"/>
 
   <!-- ===================================================================== -->
   <!--  dhill-fence-railing                                                  -->
